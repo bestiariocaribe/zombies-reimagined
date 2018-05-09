@@ -1,12 +1,11 @@
 # Site wide configuration
 
-title: "[ Zombies Reimagined ]"
-description: A Critical Discourse Analysis of Popular Culture
+title: "Bestiario caribeño | Caribbean bestiary"
+#description: A Critical Discourse Analysis of Popular Culture
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-url: http://ds.swarthmore.edu/zombies-reimagined
-# url: 
+url: # http://ds.swarthmore.edu/zombies-reimagined
 feed:
   path: atom.xml
 
@@ -27,14 +26,14 @@ gems:
 
 # Site owner
 owner:
-  name: Swarthmore College Library Digital Scholarship
-  email: digitalscholarship@swarthmore.edu
-  twitter: jamieisjames
+  name: University of Delaware Digital Studies Initiative
+  email: braham@udel.edu
+  twitter:
   google:
     ad-client:
     ad-slot:
   bio:
-  avatar: logo-mccabe-web.png # 160x160 px image for author byline
+  avatar: # logo-mccabe-web.png # 160x160 px image for author byline
   disqus-shortname:
 
 # prose.io front matter settings
@@ -82,7 +81,7 @@ prose:
         field:
           element: "text"
           label: "Storymap title"
-          placeholder: "example: zombies-and-the-spread-of-fear"
+          placeholder: "example: los zombis en el caribe"
           help: "If including a Storymap, enter the title associated with your Storymap project"
           value: ""
       - name: "timeline_id"
